@@ -1,26 +1,26 @@
 [
   {
-    "title": "Encrypted",
-    "description": "Your data is encrypted and stored in a secure database"
+    "title": "TOMATURNOS",
+    "description": "Gestiona las colas de espera. Control y asignación de turnos con un manejo eficiente de los tiempos de espera."
   },
   {
-    "title": "Open Source",
-    "description": "The code is open source and available for everyone to see"
+    "title": "MEDIDORES DE AGUA INTELIGENTES ULTRASONICOS",
+    "description": "Medición precisa del flujo sin partes móviles, monitoreo en tiempo real y envío de datos instantáneo para una gestión eficiente del consumo."
   },
   {
-    "title": "Free",
-    "description": "The service is free and will always be free"
+    "title": "RADIO COMUNICACIONES",
+    "description": "Comunicación estable y de gran calidad de audio con cobertura nacional y sin necesidad de frecuencias (opcional)."
   },
   {
-    "title": "Fast",
-    "description": "The service is fast and will always be fast"
+    "title": "CONTADORES DE PERSONAS",
+    "description": "Calcula el tráfico de personas que genera tu negocio. Mide el desempeño de tu equipo, impacto de publicidad y más."
   },
   {
-    "title": "Secure",
-    "description": "Your data is secure and will always be secure"
+    "title": "GPS - GESTION DE FLOTAS",
+    "description": "Gestión eficiente de flotas y activos con reportes y alertas en tiempo real. Indicadores de desempeño en conducción y eco driving."
   },
   {
-    "title": "Cross Platform",
-    "description": "The service is available on all platforms"
+    "title": "IOT",
+    "description": "Medición, control y automatización total de cualquier tipo de proceso, desde industriales hasta control de equipo doméstico."
   }
 ]

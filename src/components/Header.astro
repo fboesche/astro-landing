@@ -1,0 +1,38 @@
+---
+import logoimg from '/images/logo_ecBlanco2.png';
+const { title } = Astro.props;
+
+const links = [
+  { name: 'Home', href: '/' },
+  { name: 'Nosotros', href: '/about' },
+  { name: 'Servicios', href: '/services' },
+  { name: 'Contacto', href: '/contact' }
+];
+---
+<div class="bg-slate-900 flex justify-evenly py-5 flex-col text-center gap-4 md:flex-row md:text-left">
+<nav class="container mx-auto flex justify-between items-center">
+    <!-- Logo -->
+    <div>
+        <a href="/" class="text-white text-xl font-bold"><img src={logoimg} width="300"
+            height="100"/></a>
+    </div>
+ 
+    <!-- Icono del menú en móviles -->
+    <button class="text-white block md:hidden">
+      <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+      </svg>
+    </button>
+
+    <!-- Links de navegación (Ocultos en móviles) -->
+    <ul class="hidden md:flex space-x-6">
+      {links.map(link => (
+        <li>
+          <a href={link.href} class="text-gray-300 hover:text-slate-600 text-2xl">
+            {link.name}
+          </a>
+        </li>
+      ))}
+    </ul>
+  </nav>
+</div>
